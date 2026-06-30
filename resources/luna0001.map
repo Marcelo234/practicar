@@ -1,0 +1,11 @@
+<img src="[luna001] (importada)" width="789" height="1947" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:lsalvado -->
+<area shape="circle" coords="394,1639,108" alt="Mapa de la Luna" target="mapaLuna" onmouseover="mapaLuna()" href="mapaLuna.html" />
+<area shape="circle" coords="411,424,183" alt="Mapa terrestre" target="mapaTierra" onmouseover="mapaTierra()" href="mapaTierra.html" />
+</map>

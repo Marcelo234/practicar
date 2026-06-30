@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Misión Apolo</title>
+        <meta charset="UTF-8">
+<style>
+
+.contenedor {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente (si el contenedor tiene altura) */
+}
+</style>
+<script>
+  function init(){
+    var estado=0;  
+    const pantalla=document.getElementById('pantalla');
+    if(pantalla){ 
+      pantalla.innerHTML="Hola Luna";
+    }else{
+       estado=-1;
+    }
+    console.log(estado);
+  }
+  function mapaLuna(){console.log("Hola Luna");}
+  function mapaTierra(){console.log("Hola Mundo");}
+  document.addEventListener("DOMContentLoaded",init); 
+</script>
+</head>
+<body>
+    <div id="pantalla"></div>
+   <div id="contenedor">
+<img src="images/luna001.webp" width="789" height="1947" border="0" usemap="#map" />
+<map name="map">
+<area shape="circle" coords="394,1639,108" alt="Mapa de la Luna" target="mapaLuna" onmouseover="mapaLuna()" href="mapaLuna.html" />
+<area shape="circle" coords="411,424,183" alt="Mapa terrestre" target="mapaTierra" onmouseover="mapaTierra()" href="mapaTierra.html" />
+</map>
+
+  </div>
+
+
+</body>
+</html>

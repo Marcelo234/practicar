@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Misión Apolo</title>
+        <meta charset="UTF-8">
+<style></style>
+<script>
+  function init(){
+    var estado=0;  
+    const pantalla=document.getElementById('pantalla');
+    if(pantalla){ 
+      pantalla.innerHTML="Hola Luna";
+    }else{
+       estado=-1;
+    }
+    console.log(estado);
+  }
+  document.addEventListener("DOMContentLoaded",init); 
+</script>
+</head>
+<body>
+    <div id="pantalla"></div>
+   <div id="info">
+     <img src="images/infografia.webp"/>
+  </div>
+
+
+</body>
+</html>
