@@ -1,1 +1,1 @@
-console.log("Oxigeno al 100%")
+console.log("Oxigeno al 10%")
