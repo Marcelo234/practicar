@@ -1,4 +1,4 @@
-let nivelOxigeno = 45;
+let nivelOxigeno = 10;
 let nivelCombustible = 60;
 
 console.log("Revisando sistemas de soporte vital...");
